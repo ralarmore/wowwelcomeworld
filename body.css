@@ -1,0 +1,131 @@
+
+body {
+	background-color: #020202;
+	font-family: "High Tower Text", Palatino, Spectral, serif;
+}
+
+
+
+h1 {
+  width: 50%;
+  height: auto;
+
+}
+
+
+h2 {
+	color: #ccc5be;
+	font-family: "High Tower Text", Palatino, Spectral, serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+h3  {
+	color: #020202;
+	text-align: center;
+	font-family: "Felix Titling", Didot; 
+	font-size: 48px;
+	font-weight: normal;
+
+}
+
+p {
+  font-family: "High Tower Text", Palatino, Spectral;
+  font-size: 24px;
+  color: #020202;
+}
+
+
+.section {
+	background-color: aliceblue;
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-right: 200px;
+  padding-left: 200px;
+  min-width: 500px;
+  max-width: 1500px;
+
+}
+
+
+
+.menu {
+
+  background-color: #020202;
+  float: left;
+  color: #ccc5be;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+
+  
+}
+
+.menu a {
+  float: left;
+  color: #ccc5be;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+
+
+.about-container {
+  display: grid;
+  justify-content: start;
+  grid-gap: 20px 20px; 
+  padding-left: 60px;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+
+
+
+}
+
+
+@media (min-width: 1000px) {
+  .about-container { grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+@media (max-width: 1000px) {
+  .about-container { grid-template-columns: repeat(1, 1fr);
+
+
+  }
+}
+
+
+
+.ingredients {
+
+  font-size: 24px;
+  color: #020202;
+}
+
+.gallery-container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: grid;
+  justify-content: center;
+  grid-gap: 200px; 
+
+}
+
+
+
+footer {
+  color: #555b64;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+
